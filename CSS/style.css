@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(239, 239, 239);
+}
+header{
+    background-color: lightslategray;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e1e1e1;
+    height: 60px;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+header img{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    position: sticky;
+    
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    margin: 0 20px;
+}
+nav ul li a {
+    color: #0527c3;
+    font-weight: bold;
+    text-decoration: none;
+    align-items: baseline;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    color: rgb(219, 7, 205);
+}
+nav ul li a:active{
+    color: rgb(17, 255, 0);
+    background-color: blue;
+}
+nav ul li a:focus{
+    color: rgb(219, 7, 7);
+}
+.title{
+    text-align: center;
+    padding: 20px ;
+}
+#size{
+    font-size: 45px;
+}
+.tab{
+    background-color: rgb(222, 232, 238);
+    padding: 15px;
+    width: 1260px;
+    margin: auto;
+    border-radius: 8px;
+}
+.navbar1{
+    display: flex;
+    justify-content: center;
+    
+}
+.tab button:first-child{
+    background-color: #3a84d8;
+    color: white;
+    padding: 5px;
+}
+button{
+    color: blue;
+    background-color: rgb(222, 232, 238);
+}
+.hover:hover{
+    background-color: white;
+}
+.tab button{
+    font-size: 18px;
+    margin:0 35px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(39, 114, 226);
+}
+.card-contentner{
+    flex-flow: wrap;
+    padding-top: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 15px;
+}
+.card{
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+.image img{
+    width: 300px;
+    object-fit: cover;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+    display: block;
+}
+hr{ 
+    margin: 15px 0;
+}
+.content{
+    padding: 15px;
+}
+.content-head{
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+small{
+    background-color: rgb(151, 115, 224);
+    color: rgb(233, 232, 236);
+    padding: 4px;
+    border-radius: 5px;
+}
+.content-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.padding{
+    padding: 8px 0;
+}
+.padding-p{
+    padding-bottom: 5px;
+}
+.padding-l{
+    padding-left: 5px;
+}
+.text-gray{
+    color: rgb(102, 100, 100);
+}
